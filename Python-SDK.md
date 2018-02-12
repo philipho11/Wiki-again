@@ -117,7 +117,7 @@ An [example script](tutorial_scripts/sdk_launch.py) is available for download - 
 ***
 
 #### Next: [[REST API]]
-##### Previous: [[OpenStack CLI]]
+##### Previous: [[API Access]]
 [[OpenStack Tutorial Index]]
 
 

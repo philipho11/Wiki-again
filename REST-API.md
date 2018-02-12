@@ -116,9 +116,9 @@ if __name__ == "__main__":
     # A full list of available public API endpoints is at:
     #     Compute --> Access & Security --> API Access
     # Some will need to include your project ID, some will not
-    nova_url = 'https://nova.kaizen.massopencloud.org:8774/v2/{}'.format(projectt
+    nova_url = 'https://175.159.190.15:8774/v2/{}'.format(projectt
 _id)
-    glance_url = 'https://glance.kaizen.massopencloud.org:9292'
+    glance_url = 'https://175.159.190.15:9292'
 
     # Here we retrieve a list of available images
     # Since the glance endpoint does not include a version, we discover 

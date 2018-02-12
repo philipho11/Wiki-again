@@ -41,7 +41,7 @@ The first time you ssh in, you should receive this message (the keys should matc
 -->
 ## Navigate to the the OpenStack Dashboard  
 <!--Point your browser(with proxy server enabled) to http://140.247.152.207-->
-Point your browser to https://kaizen.massopen.cloud
+Point your browser to https://175.159.190.15
 
 You should see the following screen:      
 

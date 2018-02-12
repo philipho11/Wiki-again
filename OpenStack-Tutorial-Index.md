@@ -22,6 +22,9 @@ If you just need to review a specific step, you can find the page you need in th
 #### Persistent Storage
 *  [[Volumes]]
 
+#### Load Balancer
+*  [[Create a Load Balancer]]
+
 #### API Access 
 *  [[API Access]] 
 *  [[Python SDK]]

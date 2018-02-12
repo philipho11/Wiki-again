@@ -5,7 +5,7 @@ For security, the VM images have password authentication disabled by default, so
 
 Click Access and Security, then click the Key Pairs tab which appears below it.
 
-[[tutorial_screenshots/kilo/key_pairs_01.png]]
+[[tutorial_screenshots/newton/key_pairs_01.png]]
 
 #### Import a Key Pair  
 Prerequisite: You need ssh installed in your system
@@ -19,7 +19,7 @@ Open a terminal and type the following commands (in the example, we have named t
 
 Example:
 
-[[tutorial_screenshots/kilo/generate_key.png]]
+[[tutorial_screenshots/newton/generate_key.png]]
  
 You will be prompted to create a passphrase for the key.  
 **IMPORTANT:** Do not forget the passphrase! If you do, you will be unable to use your key.
@@ -43,11 +43,11 @@ Choose "Import Key Pair"
 Paste the public key that you just copied in the "Public Key" text box.  
 Give the key a name in the "Key Pair Name" Box.   
 
-[[tutorial_screenshots/kilo/import_key.png]]
+[[tutorial_screenshots/newton/import_key.png]]
 
 Click "Import Key Pair".  You will see your key pair appear in the list.
 
-[[tutorial_screenshots/kilo/key_pairs_02.png]]  
+[[tutorial_screenshots/newton/key_pairs_02.png]]  
 
 You can now skip ahead to [Adding the key to an ssh-agent](#agent)
     
@@ -57,11 +57,11 @@ If you are having trouble creating a key pair with the instructions above, the O
 
 Click "Create a Key Pair", and enter a name for the key pair.
 
-[[tutorial_screenshots/kilo/create_key.png]]
+[[tutorial_screenshots/newton/create_key.png]]
 
 You will be prompted to download a .pem file containing your private key.  (In the example, we have named the key 'cloud_key.pem', but you can name it anything.)  Save this file to your hard drive, for example in your Downloads folder.
 
-[[tutorial_screenshots/kilo/save_key.png]]  
+[[tutorial_screenshots/newton/save_key.png]]  
 
 Store this key inside the .ssh folder on your local machine/laptop, using the following steps: 
     
@@ -75,11 +75,11 @@ Project -> Compute -> Access and Security -> Key Pairs
 
 You should see your key in the list.
 
-[[tutorial_screenshots/kilo/key_pairs_03.png]]
+[[tutorial_screenshots/newton/key_pairs_03.png]]
 
 Click on the key, and you will see a screen of information that includes your public key:
 
-[[tutorial_screenshots/kilo/view_public_key.png]]
+[[tutorial_screenshots/newton/view_public_key.png]]
 
 The public key is the part of the key you distribute to VMs and remote servers.  You may find it convenient to paste it into a file inside your .ssh folder, so you don't always need to log into the website to see it.  Call the file something like `cloud_key.pub` to distinguish it from your private key.
 

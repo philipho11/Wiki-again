@@ -4,7 +4,7 @@ You can view your network topology by clicking Project, then click Network and c
 <!-- image out of date
 <img src=http://i.imgur.com/3pR0ysT.png>   
 -->
-[[tutorial_screenshots/kilo/network_topology_01-lg.png|Network Topology]]
+[[tutorial_screenshots/newton/network_topology_01-lg.png|Network Topology]]
 
 Click the "Create Network" button on the right side of the screen, above the network topology map. Give your network a name, and leave the two checkboxes with the default settings.  
 
@@ -12,7 +12,7 @@ Click the "Create Network" button on the right side of the screen, above the net
 <img src=http://i.imgur.com/GqESEUS.png> 
 -->
 
-[[tutorial_screenshots/mitaka/create_network.png|Create Network]]
+[[tutorial_screenshots/newton/create_network.png|Create Network]]
 
 Next, click "Subnet" and set up your private network's subnet.  For your private networks, you should use IP addresses which fall within the ranges that are specifically reserved for private networks: 
 
@@ -27,7 +27,7 @@ In the example below, we configure a network containing addresses 192.168.100.1 
 <!-- image out of date
 <img src=http://i.imgur.com/92xk0IQ.png> 
 -->
-[[tutorial_screenshots/mitaka/create_network_subnet.png|Create Subnet]]
+[[tutorial_screenshots/newton/create_network_subnet.png|Create Subnet]]
 
 Next, click "Subnet Details". Check the box next to Enable DHCP so that your VM instances will automatically be assigned an IP on the subnet.
 
@@ -37,7 +37,7 @@ In the DNS Name Servers box, type '8.8.8.8' (you may recognize this as one of Go
 <img src=http://i.imgur.com/Hz1ShP4.png> 
 -->
 
-[[tutorial_screenshots/mitaka/create_network_details.png|Subnet Details]]
+[[tutorial_screenshots/newton/create_network_details.png|Subnet Details]]
 
 For now, leave the Allocation Pools and Host Routes boxes empty.  Click on Create.
 
@@ -47,7 +47,7 @@ The Network Topology should now show your virtual private network next to the pu
 <img src=http://i.imgur.com/Rwaybcf.png> 
 -->
 
-[[tutorial_screenshots/kilo/network_topology_02.png|Network Topology with Private Network]]
+[[tutorial_screenshots/newton/network_topology_02.png|Network Topology with Private Network]]
 
 ***
 

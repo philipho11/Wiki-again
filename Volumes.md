@@ -9,7 +9,7 @@ Some uses for volumes:
     
 To get started, navigate to Compute -> Volumes.
 
-[[tutorial_screenshots/liberty/volume_list_01.png|Volume List 1]]
+[[tutorial_screenshots/newton/volume_list_01.png|Volume List 1]]
 
 ### Empty Volumes
 
@@ -20,24 +20,24 @@ Click "Create Volume". In the resulting popup, give your volume a name.  The des
 
 Choose "empty volume" from the Source dropdown.  This will create a volume that is like an unformatted hard disk.  Choose a size for your volume.
 
-[[tutorial_screenshots/liberty/volume_create.png|Create Volume]]
+[[tutorial_screenshots/newton/volume_create.png|Create Volume]]
 
 Click Create.  In a few moments, the volume will appear in the Volume list with the status Available.
 
-[[tutorial_screenshots/liberty/volume_list_02.png|Volume List 2]]
+[[tutorial_screenshots/newton/volume_list_02.png|Volume List 2]]
 
 #### Attach the volume to an instance
 In the Actions column, click the dropdown and select Manage Attachments.  
 
-[[tutorial_screenshots/liberty/volume_dropdown.png|Volume Dropdown]]
+[[tutorial_screenshots/newton/volume_dropdown.png|Volume Dropdown]]
 
 From the  menu, choose the instance you want to connect the volume to, and click Attach Volume.
 
-[[tutorial_screenshots/liberty/volume_attach.png|Attach Volume]]
+[[tutorial_screenshots/newton/volume_attach.png|Attach Volume]]
 
 The volume now has a status of "In Use" and the Attached To column notes which instance it is attached to, and what device name it has  This will be something like `/dev/vdb` but it can vary depending on the state of your instance, and whether you have attached volumes before. Make note of the device name of your volume.
 
-[[tutorial_screenshots/liberty/volume_list_03.png|Volume list 3]]
+[[tutorial_screenshots/newton/volume_list_03.png|Volume list 3]]
 
 #### Format and mount the volume
 SSH to your instance.  You should now see the volume as an additional disk in the output of `sudo fdisk -l` or `lsblk`.
@@ -85,29 +85,29 @@ You may wish to transfer a volume to a different project.  Perhaps you did some 
 
 The volume to transfer must not be attached to an instance.  Click the dropdown next to the volume and choose Create Transfer.
 
-[[tutorial_screenshots/liberty/volume_transfer_create01.png|Transfer Volume 1]]
+[[tutorial_screenshots/newton/volume_transfer_create01.png|Transfer Volume 1]]
 
 Give the transfer a name.
 
-[[tutorial_screenshots/liberty/volume_transfer_create02.png|Create Transfer 2]]
+[[tutorial_screenshots/newton/volume_transfer_create02.png|Create Transfer 2]]
 
 You will see a screen like this.  Be sure to capture the Transfer ID and the Key.  You can always get the transfer ID later if needed, but there is no way to retrieve the key.  If the key is lost before the transfer is completed, you will have to cancel the pending transfer and create a new one.
 
-[[tutorial_screenshots/liberty/volume_transfer_create03.png| Create Transfer 3]]
+[[tutorial_screenshots/newton/volume_transfer_create03.png| Create Transfer 3]]
 
 Assuming you have access to the receiving project, switch to it using the Project dropdown at the top right.  If you don't have access to the receiving project, give the transfer ID and key to a collaborator who does, and have them complete the next steps.
 
 In the receiving project, go to the Volumes tab, and click Accept Volume Transfer.  In the example, we see that the receiving project already has a couple of volumes.
 
-[[tutorial_screenshots/liberty/volume_transfer_receive01.png| Receive Transfer 1]]
+[[tutorial_screenshots/newton/volume_transfer_receive01.png| Receive Transfer 1]]
 
 Enter the Transfer ID and the Transfer key that were captured when the transfer was created.
 
-[[tutorial_screenshots/liberty/volume_transfer_receive02.png| Receive Transfer 2]]
+[[tutorial_screenshots/newton/volume_transfer_receive02.png| Receive Transfer 2]]
 
 The volume should now appear in the Volumes list of the receiving project.
 
-[[tutorial_screenshots/liberty/volume_transfer_receive03.png| Receive Transfer 3]]
+[[tutorial_screenshots/newton/volume_transfer_receive03.png| Receive Transfer 3]]
 
 Note that pending transfers can be cancelled if they are not yet accepted, but there is no way to "undo" a transfer once it is complete.  To send the volume back to the original project, a new transfer would be required.
 

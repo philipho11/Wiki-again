@@ -10,7 +10,7 @@ From the External Network dropdown, select the 'public' network, and click Creat
 <!-- img out of date
 <img src=http://i.imgur.com/lDlSD3A.png> 
 -->
-[[tutorial_screenshots/kilo/create_router.png|Create Router]]
+[[tutorial_screenshots/newton/create_router.png|Create Router]]
 
 You should now see the router in the Network Topology view.  (It also appears under Project -> Network -> Routers).
 
@@ -19,7 +19,7 @@ Notice that it is now connected to the public network, but not your private netw
 <!-- img out of date
 <img src=http://i.imgur.com/uqarUe9.png>
 -->
-[[tutorial_screenshots/kilo/network_topology_03.png|Network Topology with Router]]
+[[tutorial_screenshots/newton/network_topology_03.png|Network Topology with Router]]
 
 <!-- info out of date
 ### Set Router Gateway
@@ -40,14 +40,14 @@ In order to route between your private network and the outside world, you must g
 <!--img out of date
 <img src=http://i.imgur.com/j4kNfCX.png>
 -->
-[[tutorial_screenshots/kilo/add_interface_01.png|Add Interface]]
+[[tutorial_screenshots/newton/add_interface_01.png|Add Interface]]
 
 Choose your subnet from drop down list.
 
 <!--img out of date
 <img src=http://i.imgur.com/5lu0DYh.png>
 -->
-[[tutorial_screenshots/kilo/add_interface_02.png|Add Interface]]
+[[tutorial_screenshots/newton/add_interface_02.png|Add Interface]]
 
 Click "Add Interface."  The Router will now appear connected to the private network in Network Topology.
 
@@ -58,11 +58,11 @@ Click "Add Interface."  The Router will now appear connected to the private netw
 <!--img out of date
 <img src=http://i.imgur.com/pMqWOAx.png>
 -->
-[[tutorial_screenshots/kilo/network_topology_04.png]]
+[[tutorial_screenshots/newton/network_topology_04.png]]
 
 You can also access more information about the router by navigating to Networks --> Routers and choosing it from the list.
 
-[[tutorial_screenshots/kilo/routers-interfaces.png|Routers]] 
+[[tutorial_screenshots/newton/routers-interfaces.png|Routers]] 
 
 
 ***

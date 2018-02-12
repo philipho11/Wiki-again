@@ -7,7 +7,7 @@ Before trying to access instances from the outside world, you need to make sure 
 
 Make note of the floating IP you have associated to your instance.
 
-[[tutorial_screenshots/kilo/floatingip_is_associated.png]]
+[[tutorial_screenshots/newton/floatingip_is_associated.png]]
 
 In our example, the IP is 129.10.3.66.
 
@@ -25,7 +25,7 @@ Open a Terminal window and type:
 
 Since you have never connected to this VM before, you will be asked if you are sure you want to connect.  Type `yes`. 
 
-[[tutorial_screenshots/kilo/ssh_to_vm.png]]
+[[tutorial_screenshots/newton/ssh_to_vm.png]]
 
 Note that if you haven't added your key to ssh-agent, you may need to specify the private key file, like this:
 

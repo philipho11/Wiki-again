@@ -15,15 +15,15 @@ Security groups are very highly configurable, so you can create different securi
 #### Create a new Security Group
 Click on "Create Security Group."  Give your new group a name, and a brief description.  In the example, we will enable SSH from anywhere so we can access the VM via a public IP.
 
-[[tutorial_screenshots/kilo/create_security_group.png]]
+[[tutorial_screenshots/newton/create_security_group.png]]
 
 Your new group now appears in the list.  Click the "Manage Rules" button in the "Actions" column next to your new security group.
 
-[[tutorial_screenshots/kilo/access_security_newgroup.png]]
+[[tutorial_screenshots/newton/access_security_newgroup.png]]
 
 You will see some existing rules:
 
-[[tutorial_screenshots/kilo/security_rules_01.png]]
+[[tutorial_screenshots/newton/security_rules_01.png]]
 <!--
 <img src=http://i.imgur.com/JzHIUbD.png>      
 -->
@@ -32,11 +32,11 @@ Let's create the new rule to allow SSH. Click on Add Rule.
 
 You will see there are a lot of options you can configure on this screen.  There is a built-in SSH option to make things simple.  Choose 'SSH' from the 'Rule' drop down menu and click "Add."  
 
-[[tutorial_screenshots/kilo/add_rule.png]]
+[[tutorial_screenshots/newton/add_rule.png]]
 
 The new rule now appears in the list.
 
-[[tutorial_screenshots/kilo/security_rules_02.png]]
+[[tutorial_screenshots/newton/security_rules_02.png]]
 
 ##### Allowing Ping
 
@@ -44,7 +44,7 @@ The default configuration blocks ping responses, so you will need to add an addi
 
 Ping is ICMP traffic, so the easiest way to allow it is to add a new rule and choose "ALL ICMP" from the dropdown.
 
-[[tutorial_screenshots/mitaka/security_add_rule_ping.png]]
+[[tutorial_screenshots/newton/security_add_rule_ping.png]]
 
 <!--
 REMOVED THIS INSTRUCTION DUE TO KNOWN BUG

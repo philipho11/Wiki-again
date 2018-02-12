@@ -19,7 +19,7 @@ This section will assume you have some familiarity with Python.  If not, there a
 ## Setting up API Access
 Navigate: Project -> Compute -> Access & Security.  Choose the "API Access" tab under the Access & Security header.
 
-[[tutorial_screenshots/liberty/api_access.png| API Access]]
+[[tutorial_screenshots/newton/api_access.png| API Access]]
 
 You will see a list of URL endpoints for each OpenStack service.  When using the CLI or Python client libraries these are typically provided to your client script during the process of Keystone authentication.
 

@@ -45,7 +45,7 @@ Point your browser to https://kaizen.massopen.cloud
 
 You should see the following screen:      
 
-[[tutorial_screenshots/kilo/redhat_login_page_small.png|Red Hat Openstack Login Page]]
+[[tutorial_screenshots/newton/redhat_login_page_small.png|Red Hat Openstack Login Page]]
 
 <!--img src=http://ataturk.github.io/tutorial/login.png-->
 <!--img src=http://i.imgur.com/6MsO98m.png-->
@@ -58,13 +58,13 @@ Use your openstack user credentials to login.  Your username will be your email 
 Once you login you should see an overview of the resources like instances(vms), CPU, RAM etc. Take some time to
 just browse around.
 
-[[tutorial_screenshots/liberty/compute_overview.png|Project Overview]]
+[[tutorial_screenshots/newton/compute_overview.png|Project Overview]]
 <!--img src=http://i.imgur.com/ZTK0J5i.png-->  
 
 ## Change Your Password
 The first time you log in, you must change your temporary password to one that only you know.  Find your username in the top right corner of the dashboard, and click on it.  Choose "Change Password" from the menu that opens.  Enter your temporary password under "Current Password", and your new password in the other two boxes.
 
-[[tutorial_screenshots/kilo/change_password.png|Change Password Menu]]
+[[tutorial_screenshots/newton/change_password.png|Change Password Menu]]
 
 ***
  

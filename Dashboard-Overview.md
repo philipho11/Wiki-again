@@ -9,7 +9,7 @@
 
 Navigate: Project -> Compute -> Overview  
 
-[[tutorial_screenshots/liberty/compute_overview.png|Compute Overview]]
+[[tutorial_screenshots/newton/compute_overview.png|Compute Overview]]
 <!--img src=http://i.imgur.com/ZTK0J5i.png--> 
 
 Take some time to click through the different tabs under compute, such as Instances. 
@@ -22,7 +22,7 @@ Next click on the Network panel.  You should see the external public network whi
 <!-- Image out of date
 img src=http://i.imgur.com/3pR0ysT.png--> 
 
-[[tutorial_screenshots/kilo/network_topology_01-lg.png|Network Topology]]
+[[tutorial_screenshots/newton/network_topology_01-lg.png|Network Topology]]
 
 <!--
 ### Object Store Panel

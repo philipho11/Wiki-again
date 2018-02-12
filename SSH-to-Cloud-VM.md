@@ -9,7 +9,7 @@ Make note of the floating IP you have associated to your instance.
 
 [[tutorial_screenshots/newton/floatingip_is_associated.png]]
 
-In our example, the IP is 129.10.3.66.
+In our example, the IP is 175.159.190.44
 
 Default usernames for all the base images are:
 
@@ -21,7 +21,7 @@ Our example VM was launched with the RHEL7.1 base image, the user we need is 'cl
 
 Open a Terminal window and type:
 
-      $ ssh cloud-user@129.10.3.66
+      $ ssh cloud-user@175.159.190.44
 
 Since you have never connected to this VM before, you will be asked if you are sure you want to connect.  Type `yes`. 
 
@@ -29,7 +29,7 @@ Since you have never connected to this VM before, you will be asked if you are s
 
 Note that if you haven't added your key to ssh-agent, you may need to specify the private key file, like this:
 
-      $ ssh -i ~/.ssh/cloud_key.pem cloud-user@129.10.3.66
+      $ ssh -i ~/.ssh/cloud_key.pem cloud-user@175.159.190.44
 
 If you have problems with the SSH step, this page lists solutions to some common problems: [[Troubleshooting SSH Login]]
 
@@ -64,7 +64,7 @@ Create a file called something like 'teammates.pub' and paste in your team's pub
 
 Copy the file to the vm:
 
-     [you@your-laptop ~]$ scp teammates.pub cloud-user@129.10.3.66:~
+     [you@your-laptop ~]$ scp teammates.pub cloud-user@175.159.190.44:~
 
 If the copy works, you will see the output:
 

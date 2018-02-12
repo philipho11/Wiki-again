@@ -31,7 +31,7 @@ Choose m1.small from the 'Flavor' tab by clicking on the "+" icon.
 
 The default m1.tiny flavor is too small for the base images which are available.  m1.small has enough resources for most purposes, so you should choose that unless you explicitly need more.  
 
-If you find later that a custom flavor would help you use your resources more effectively, you can contact moc-kaizen-l@bu.edu to request that the admins create a new flavor.
+If you find later that a custom flavor would help you use your resources more effectively, you can contact gripen@hku.hk to request that the admins create a new flavor.
 
 After choosing m1.small, you should see it moved up to "Allocated".
 
@@ -52,8 +52,9 @@ Add the key pair you want to use with this VM.  Openstack currently only support
 
 [[tutorial_screenshots/newton/launch_key.png]]
 
-##### Configuration and Metadata:
-Ignore these two tabs for now.
+##### Configuration and Metadata and Server groups, scheduler hints:
+
+Ignore these four tabs for now.
 
 You are now ready to launch your VM - go ahead and click "Launch Instance"!
 

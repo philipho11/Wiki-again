@@ -24,7 +24,7 @@ Click Allocate.
 
 [[tutorial_screenshots/newton/floatingip_allocate.png]]
 
-You will get a green "success" popup in the top left that shows your public IP address.  You will get a red error message instead if you attempt to exceed your project's floating IP quota.  (If you have not tried to exceed your quota, but you get a red error message anyway, please contact moc-kaizen-l@bu.edu for help.)
+You will get a green "success" popup in the top left that shows your public IP address.  You will get a red error message instead if you attempt to exceed your project's floating IP quota.  (If you have not tried to exceed your quota, but you get a red error message anyway, please contact pcbho@hku.hk for help.)
 
 [[tutorial_screenshots/newton/floatingip_success.png]]
 

@@ -112,6 +112,6 @@ The volume should now appear in the Volumes list of the receiving project.
 Note that pending transfers can be cancelled if they are not yet accepted, but there is no way to "undo" a transfer once it is complete.  To send the volume back to the original project, a new transfer would be required.
 
 ***
-#### Next: [[Object Storage]]  
+#### Next: [[API Access]]  
 ###### Previous:  [[SSH to Cloud VM]]
 [[Openstack Tutorial Index]]  

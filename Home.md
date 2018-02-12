@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 This is the public wiki page for the OPNFV.
 
 * [[Getting Started]]

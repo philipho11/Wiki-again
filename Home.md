@@ -9,9 +9,7 @@ This is the public wiki page for the OPNFV.
  * [[Glossary | OpenStack Glossary]]
  * [[Notes | OpenStack Notes]]
  * [[OpenStack APIs]]
-* [[Ceph]]
 * [[Debugging VNC access]]
-* [[Debugging the installed version of Horizon]]
 * [[OpenShift]]
 
 ### Related Reading

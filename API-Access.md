@@ -6,7 +6,6 @@
 ## Background
 
 Most of this tutorial has been focused on interacting with OpenStack via the Horizon GUI.  But anything you can do in Horizon can also be done by interacting directly with the Openstack API.  There are several options:
-* [[OpenStack CLI]] - Open (similar to the swift client used in the [[Object Storage]] part of the tutorial)
 * [[Python SDK]] - A unified front for the various OpenStack service clients
 * [[REST API]] - writing your application to communicate directly with the OpenStack RESTful API endpoints
 * [[Python Service Clients]] - using the OpenStack Python libraries (or libraries that may exist for other languages) to integrate OpenStack into your application
@@ -47,6 +46,6 @@ where $PROJECT is the service name, such as `cinder`, `nova`, or `neutron`. The 
 
 ***
 
-#### Next: [[OpenStack CLI]]
-##### Previous: [[Object Storage]]
+#### Next: [[Python SDK]]
+##### Previous: [[Volumes]]
 [[Openstack Tutorial Index]]

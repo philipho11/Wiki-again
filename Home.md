@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is the public wiki page for the OPNFV.
 
 * [[Getting Started]]
@@ -21,3 +22,6 @@ This is the public wiki page for the OPNFV.
 ### Infrastructure 
 
 Out-of-date pages archived for reference are in the [[Archive]]
+=======
+Welcome to the opnfv-hku wiki!
+>>>>>>> 811f0598356320b666810fc6744e5b2598dacbe5

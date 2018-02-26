@@ -1,6 +1,6 @@
 
 ### Getting Started
-* [OPNFV Production Dashboard](https://175.159.190.15)
+* [OPNFV Production Dashboard](http://175.159.190.15)
 
 ### Tutorials
 * [OPNFV OpenStack Text & Screenshot Tutorial](https://github.com/philipho11/opnfv-hku/wiki/openstack-tutorial-index)

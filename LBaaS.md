@@ -27,7 +27,7 @@ You can add a health monitor so that unresponsive servers are removed from the p
 [[tutorial_screenshots/newton/lb_monitor_details.png|LBaaS details]]
 
 
-###Associating a floating IP address
+### Associating a floating IP address
 
 Load balancers that are deployed on a public or provider network that are accessible to external clients do not need a floating IP address assigned. External clients can directly access the virtual IP address (VIP) of those load balancers.
 However, load balancers deployed onto private or isolated networks need a floating IP address assigned if they must be accessible to external clients. To complete this step, you must have a router between the private and public networks and an available floating IP address.

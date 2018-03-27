@@ -23,7 +23,7 @@ If you just need to review a specific step, you can find the page you need in th
 *  [[Volumes]]
 
 #### Load Balancer
-*  [[Create a Load Balancer]]
+*  [[LBaaS]]
 
 #### API Access 
 *  [[API Access]] 

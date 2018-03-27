@@ -38,6 +38,10 @@ Load balancers deployed onto private network need a floating IP address assigned
 Associating a floating IP to the load balancer
 [[tutorial_screenshots/newton/lb_floatingIP.png|LBaaS FloatingIP]]
 
+### For more information
+
+[LBaaS V2 Concepts]: https://docs.openstack.org/newton/networking-guide/config-lbaas.html#lbaas-v2-concepts 
+
 ***
 #### Next: [[API Access]]  
 ###### Previous:  [[SSH to Cloud VM]]

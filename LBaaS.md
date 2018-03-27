@@ -1,3 +1,4 @@
+[LBaaS V2 Concepts]: https://docs.openstack.org/newton/networking-guide/config-lbaas.html#lbaas-v2-concepts 
 ### Intro to LBaaS V2
 
 Load Balancing-as-a-Service (LBaaS) enables OpenStack Networking to distribute incoming requests evenly between designated instances. This ensures the workload is shared predictably among instances, and allows more effective use of system resources. Incoming requests are distributed using one of these load balancing methods: 
@@ -40,7 +41,7 @@ Associating a floating IP to the load balancer
 
 ### For more information
 
-[LBaaS V2 Concepts]: https://docs.openstack.org/newton/networking-guide/config-lbaas.html#lbaas-v2-concepts 
+A good resource is the [LBaaS V2 Concepts]
 
 ***
 #### Next: [[API Access]]  

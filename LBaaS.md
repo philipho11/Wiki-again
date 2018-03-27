@@ -39,6 +39,10 @@ Load balancers deployed onto private network need a floating IP address assigned
 Associating a floating IP to the load balancer
 [[tutorial_screenshots/newton/lb_floatingIP.png|LBaaS FloatingIP]]
 
+## Client IP 
+The client IP retrived at the pool memeber will be load balancer's private subnet IP. 
+However, loadBalancer does set "X-Forwarded-For" HTTP header, thus you can follow this [FAQ](http://www.loadbalancer.org/blog/apache-and-x-forwarded-for-headers/)  to retrieve the real client IP from "X-Forwarded-For" header for Apache. But for better security, you should trust the proxy IP only from load balancer [[ref]](https://httpd.apache.org/docs/2.4/mod/mod_remoteip.html)
+
 ### For more information
 
 A good resource is the [LBaaS V2 Concepts]

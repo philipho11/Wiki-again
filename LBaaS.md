@@ -1,9 +1,9 @@
 ### Intro to LBaaS V2
 
 Load Balancing-as-a-Service (LBaaS) enables OpenStack Networking to distribute incoming requests evenly between designated instances. This ensures the workload is shared predictably among instances, and allows more effective use of system resources. Incoming requests are distributed using one of these load balancing methods: 
-..* Round robin - Rotates requests evenly between multiple instances. 
-..* Source IP - Requests from a unique source IP address are consistently directed to the same instance. 
-..* Least connections - Allocates requests to the instance with the least number of active connections. 
+* Round robin - Rotates requests evenly between multiple instances. 
+* Source IP - Requests from a unique source IP address are consistently directed to the same instance. 
+* Least connections - Allocates requests to the instance with the least number of active connections. 
     
 To get started, navigate to Network -> Load Balancers.
 

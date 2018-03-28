@@ -34,7 +34,7 @@ s1.small is comparable to a small VM in ITSCloud, so do s1.medium, s1.large to m
 
 The default m1.tiny flavor is too small for the base images which are available.  m1.small has enough resources for most purposes, so you should choose that unless you explicitly need more.  
 
-If you find later that a custom flavor would help you use your resources more effectively, you can contact gripen@hku.hk to request that the admins create a new flavor.
+If you find later that a custom flavor would help you use your resources more effectively, you can raise a pull request (PR) in this site to request that the admins create a new flavor.
 
 After choosing m1.small, you should see it moved up to "Allocated".
 

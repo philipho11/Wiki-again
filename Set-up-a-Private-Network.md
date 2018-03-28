@@ -31,7 +31,8 @@ In the example below, we configure a network containing addresses 192.168.100.1 
 
 Next, click "Subnet Details". Check the box next to Enable DHCP so that your VM instances will automatically be assigned an IP on the subnet.
 
-In the DNS Name Servers box, type '8.8.8.8' (you may recognize this as one of Google's public name servers).
+In the DNS Name Servers box, type 147.8.2.254, 147.8.145.254 (two HKU name servers)
+,or type '8.8.8.8' (you may recognize this as one of Google's public name servers).
 
 <!-- image out of date
 <img src=http://i.imgur.com/Hz1ShP4.png> 

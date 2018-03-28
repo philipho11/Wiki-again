@@ -23,10 +23,13 @@ To create an image that uses the boot volume sized according to the flavor ensur
 
 [[tutorial_screenshots/newton/launch_source.png]]
 
+There are several image pre-configured by ITS[[ Image Prepared by ITS]]
 
 ##### Flavor:  
-Choose m1.small from the 'Flavor' tab by clicking on the "+" icon.
- 
+Choose s1.small from the 'Flavor' tab by clicking on the "+" icon.
+
+s1.small is comparable to a small VM in ITSCloud, so do s1.medium, s1.large to medium and large VM.
+
 [[tutorial_screenshots/newton/launch_flavor_01.png]]
 
 The default m1.tiny flavor is too small for the base images which are available.  m1.small has enough resources for most purposes, so you should choose that unless you explicitly need more.  
